@@ -22,7 +22,8 @@ for file in $@
 do
 	# Name the file of interest for the loop
 	echo "This is output information for  a log file named:"
-	$file
+	echo $file
+
 	echo
 	# Extrapolate the file size only
 	echo "File size:"
